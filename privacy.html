@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aimora — Privacy Policy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", sans-serif;
+      background-color: #0A0E17;
+      color: #E4E4E7;
+      max-width: 680px;
+      margin: 60px auto;
+      padding: 0 24px 100px;
+      line-height: 1.8;
+      letter-spacing: -0.01em;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1 {
+      font-size: 34px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+    .updated {
+      color: #71717A;
+      font-size: 14px;
+      margin-bottom: 44px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #FFFFFF;
+      margin-top: 48px;
+      margin-bottom: 16px;
+      border-left: 3px solid #30D158;
+      padding-left: 14px;
+      letter-spacing: -0.015em;
+    }
+    p, li {
+      font-size: 16px;
+      color: #D4D4D8;
+    }
+    ul {
+      padding-left: 0;
+      list-style: none;
+    }
+    ul li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 12px;
+    }
+    ul li::before {
+      content: "•";
+      color: #30D158;
+      font-weight: bold;
+      position: absolute;
+      left: 6px;
+      top: 0;
+    }
+    a {
+      color: #30D158;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s ease, color 0.2s ease;
+    }
+    a:hover {
+      color: #34C759;
+      border-bottom: 1px solid #34C759;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: July 3, 2026</p>
+
+<p>Aimora ("the app", "we", "our") is a calm productivity app that helps you move toward your goals one step at a time. This Privacy Policy explains what data is collected, how it is used, and what choices you have.</p>
+
+<h2>1. Data Stored on Your Device</h2>
+<p>All your personal content — goals, daily progress, completed steps, streaks, and settings — is stored locally on your device using Apple's SwiftData framework. We do not have access to this data, and it is never uploaded to our servers.</p>
+
+<h2>2. iCloud Sync</h2>
+<p>If you are signed in to iCloud and have iCloud Drive enabled, your data may be synced across your Apple devices via iCloud (CloudKit). This sync is handled entirely by Apple and is subject to <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. We do not have access to your iCloud data.</p>
+
+<h2>3. AI Step Generation</h2>
+<p>Aimora generates personalized daily steps using an AI language model. To produce a relevant step, the app sends the following context to our secure backend server:</p>
+<ul>
+  <li>Your goal title and archetype (e.g., "skill", "project", "habit")</li>
+  <li>Recent completed steps and progress signals (anonymized, no account linked)</li>
+  <li>Session context: time of day, energy level, deadline pressure</li>
+</ul>
+<p>This data is sent only at the moment a step is generated and is not stored on our servers after the response is returned. Requests are routed through our Cloudflare Worker and processed by an OpenAI-compatible language model. No personally identifiable information (name, email, account ID) is included in these requests.</p>
+
+<h2>4. Analytics</h2>
+<p>The app collects anonymous, aggregate usage analytics to help us understand how features are used and to improve the product. This includes events such as "step completed", "generation timeout", or "feature opened". These events contain no personal content and cannot be linked to an individual user. No third-party analytics SDKs are used.</p>
+
+<h2>5. Subscriptions and Payments</h2>
+<p>Aimora offers an optional subscription (including a free trial) managed entirely through Apple's App Store and StoreKit. We never see or store your payment details. For questions about billing, please refer to your Apple ID account settings or <a href="https://support.apple.com/billing">Apple's billing support</a>.</p>
+
+<h2>6. Notifications</h2>
+<p>With your permission, the app may send local push notifications to remind you of your daily step or celebrate streaks. These notifications are generated entirely on-device and do not involve any server communication.</p>
+
+<h2>7. Data Retention</h2>
+<p>Since all personal content is stored on your device, you can delete it at any time by deleting the app. Upon deletion, all local data is permanently removed. We do not retain any user content on our servers.</p>
+
+<h2>8. Children's Privacy</h2>
+<p>Aimora is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with information, please contact us and we will delete it promptly.</p>
+
+<h2>9. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. The updated version will be indicated by a revised "Last updated" date at the top of this page. We encourage you to review this policy periodically.</p>
+
+<h2>10. Contact</h2>
+<p>If you have any questions about this Privacy Policy, you can contact us at: <a href="mailto:ckaaun@gmail.com">ckaaun@gmail.com</a>.</p>
+
+</body>
+</html>
